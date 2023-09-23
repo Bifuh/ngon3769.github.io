@@ -18,10 +18,10 @@
 
             <!-- Menu -->
             <ul class="vertical menu">
-                <li><a href="./index.html" target="_self">Home</a></li>
-                <li><a href="./projects.html" target="_self">Projects</a></li>
-                <li><a href="./resume.html" target="_self">Resume</a></li>
-                <li><a href="./fun.html" target="_self">Fun Stuff</a></li>
+                <li style="color:#333333"><a href="./index.html" target="_self">Home</a></li>
+                <li style="color:#333333"><a href="./projects.html" target="_self">Projects</a></li>
+                <li style="color:#333333"><a href="./resume.html" target="_self">Resume</a></li>
+                <li style="color:#333333"><a href="./fun.html" target="_self">Fun Stuff</a></li>
             </ul>
         </div>
         <!-- Your page content lives here -->
@@ -30,13 +30,18 @@
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-12 medium-12 large-12 headings" style="background-color: #FCEFEE;">
-                        <h5><span class="float-left">Bifuh Ngongalah</span><span class="float-right">icons</span></h5>
+                    <button type="button" class="cell large-auto button" data-toggle="offCanvas" style="background-color: #333333; text-align: left;">&equiv; Menu</button>
+                    <div class="cell small-12 medium-12 large-12 headings" style="background-color: #F5f5f5;">
+                        <h5><span class="float-left">About Me</span></h5>
                     </div>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-12 medium-6 large-4" style="background-color: #FCEFEE;"><img id="headshot" src="resized-headshot.jpg" alt="Image of girl in a beige vest"></div>
-                    <div class="cell small-12 medium-6 large-8" style="background-color: #FCEFEE;">
+                    <div class="cell small-12 medium-6 large-4" style="background-color: #F5f5f5;">
+                        <img id="headshot" src="resized-headshot.jpg" alt="Image of girl in a beige vest">
+                        <p class="italic" style="padding-bottom: 0px; text-align: center; font-size: 0.8rem;">Linkedin: <a href="https://www.linkedin.com/in/bifuh-ngongalah" target=_blank>Bifuh Ngongalah</a></p>
+                        <p class="italic" style="padding-top: 0px; text-align: center; font-size: 0.8rem;">Email: <a href="mailto:bngongalah@gmail.com">bngongalah@gmail.com</a></p>
+                    </div>
+                    <div class="cell small-12 medium-6 large-8" style="background-color: #f5f5f5;">
                         <p>
                             Hello! I'm Bifuh Ngongalah, a third-year Computer Science major at the University of St. Thomas. With minors in 
                             Data Analytics and Applied Statistics, I thrive on extracting insights from data and using it to inform decision-making.
@@ -56,9 +61,8 @@
                             that bridge the gap and create opportunities for all.
                         </p>
                         <p>
-                            Whether you're interested in collaboration, entrepreneurship, or simply want to connect, 
-                            don't hesitate to reach out to me on <a href="https://www.linkedin.com/in/bifuh-ngongalah" target=_blank>LinkedIn</a> or 
-                            via <a href="mailto:bngongalah@gmail.com">email</a>.
+                            Whether you're interested in collaboration, have insight on breaking into entrepreneurship, or simply want to connect, 
+                            don't hesitate to reach out to me on LinkedIn or via email.
                         </p>
                         <p>
                             Thank you for visiting, and I look forward to connecting with like-minded individuals
@@ -74,19 +78,15 @@
                     <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
                     <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
                 </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
-                </div>
-                -->
+                 -->
             </div>
         </div>
     </div>
 
     <!-- include before closing <body> tag -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./what-input.js"></script>
+    <script src="./foundation.js"></script>
     <script type="application/javascript">
         $(document).foundation();
     </script>

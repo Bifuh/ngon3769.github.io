@@ -1,7 +1,6 @@
 html {
-    background-color: #FCEFEE;;
+    background-color: #F5f5f5;
 }
-
 p {
     color: #333333;
     padding: 20px 10px 0px 10px;
@@ -11,7 +10,6 @@ h1, h2, h3, h4, h5, h6, .headings {
     color: #333333;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 2rem;
-    border-radius: 4px;
 }
 #headshot {
     padding: 20px;
@@ -32,6 +30,7 @@ h1, h2, h3, h4, h5, h6, .headings {
 .resume-titles {
     font-family:Arial, Helvetica, sans-serif;
     padding: 0px 0px;
+    font-weight: bold;
 }
 .resume-lines {
     font-size: 0.9rem;
@@ -44,10 +43,26 @@ h1, h2, h3, h4, h5, h6, .headings {
     margin-left: 4rem;
     margin-right: 4rem;
 }
+.project-title {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding-left: 1rem;
+}
+.project-lines {
+    font-size: 0.9rem;
+    padding: 1rem 1rem 0rem 1rem;
+    clear: both;
+}
 li {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 0.9rem;
 }
-a {
-    color:blue;
+a, a:visited {
+    color:#333333;
+    text-decoration: underline;
+}
+a:hover {
+    color: blue; 
 }
