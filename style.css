@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6, .headings {
 .resume-section {
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .project-title {
     font-weight: bold;
@@ -55,13 +55,17 @@ h1, h2, h3, h4, h5, h6, .headings {
     padding: 1rem 1rem 0rem 1rem;
     clear: both;
 }
+.fun-paragraphs {
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+}
 li {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 0.9rem;
 }
 a, a:visited {
-    color:#333333;
-    text-decoration: underline;
+    color:rgb(55, 55, 184);
 }
 a:hover {
     color: blue; 

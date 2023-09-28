@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Personal Website</title>
 	<link rel="stylesheet" href="./foundation.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="off-canvas-wrapper">
@@ -29,20 +30,99 @@
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                    <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
+                    <button type="button" class="cell large-auto button" data-toggle="offCanvas" style="background-color: #333333; text-align: left;">&equiv; Menu</button>
                 </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
+                <!--
+                <div class="cell small-12 medium-12 large-12 headings" style="background-color: #F5f5f5;">
+                    <h5 style="text-align: left; padding-left: 1rem;">Projects</h5>
+                    <p class="project-lines">Welcome to my projects page, a space where I showcase my experiences in a range of 
+                        coding and statistical projects. These projects represent my ongoing journey of learning and problem-solving, 
+                        reflecting my enthusiasm for creative solutions. Take a moment to explore the diverse collection of 
+                        endeavors that have played a part in my personal and professional growth.</p>
                 </div>
-                
+                -->
                 <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                    <div class="cell small-12 medium-12 large-12" style="background-color: #F5f5f5;">
+                        <h5 style="padding-left: 1rem;">Hobbies and Fun Stuff!</h5>
+                    </div>
+                    <div class="cell small-12 medium-12 large-12" style="background-color: #F5f5f5;">
+                        <p class="project-lines"> Welcome to my fun page! While I'm passionate about coding and crafting digital
+                            solutions, I'm equally enthusiastic about exploring the analog world and pursuing various hobbies. Here, you'll
+                            get a glimpse of the multifaceted individual behind the code. From concerts, biking, hiking, traveling, and
+                            kayaking to cooking, thrifting, reading, painting, and crocheting, these activities keep me inspired and balanced. 
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" style="border-top:#333333 solid 1px; border-bottom:#333333 solid 1px;">
+                    <div class="cell small-12 medium-12 large-12" style="background-color: #F5f5f5;">
+                        <h6 class="project-title" style="padding-left: 1rem; padding-top: 1rem;">Outdoor Adventures</h6>
+                    </div>
+                    <div class="cell small-12 medium-6 large-6" style="background-color: #F5f5f5;">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell small-12 medium-5 large-5" style="background-color: #F5f5f5;">
+                                <img src="./image4.jpeg" alt="Image of kayak on river" style="padding: 1rem 1rem;"></img>
+                            </div>
+                            <div class="cell small-12 medium-7 large-7" style="background-color: #F5f5f5;">
+                                <p class="project-lines fun-paragraphs">
+                                    Being outdoors is my gateway to exploring the world beyond lines of code. From traversing the Warren Dunes Hiking State
+                                    Park along the shore of Lake Michigan, to paddling across Paw Paw River in my kayak, to just staring at the clouds
+                                    from my airplane window seat, I thrive on the freedom and the beauty of the great outdoors. Traveling to new 
+                                    destinations fuels my curiosity and allows me to discover diverse landscapes and cultures.
+                                </p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-6 large-6" style="background-color: #F5f5f5;">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell small-12 medium-5 large-5" style="background-color: #F5f5f5;">
+                                <img src="./image2.jpeg" alt="Selfie of people on a hike" style="padding: 1rem 1rem;">
+                            </div>
+                            <div class="cell small-12 medium-7 large-7" style="background-color: #F5f5f5;">
+                                <p class="project-lines fun-paragraphs">
+                                    Whether it's summiting a challenging peak, navigating pristine rivers, or embarking on long-distance bike rides,
+                                    these adventures not only test my physical limits but also provide moments of serenity and connection with
+                                    nature that recharge my spirit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" style="border-top:#333333 solid 1px; border-bottom:#333333 solid 1px;">
+                    <div class="cell small-12 medium-12 large-12" style="background-color: #F5f5f5;">
+                        <h6 class="project-title" style="padding-left: 1rem; padding-top: 1rem;">Passions and Pursuits</h6>
+                    </div>
+                    <div class="cell small-12 medium-6 large-6" style="background-color: #F5f5f5;">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell small-12 medium-5 large-5" style="background-color: #F5f5f5;">
+                                <img src="./image0.jpg" alt="Image of artist on stage at concert and people in the crowd" style="padding: 1rem 1rem;"></img>
+                            </div>
+                            <div class="cell small-12 medium-7 large-7" style="background-color: #F5f5f5;">
+                                <p class="project-lines fun-paragraphs">
+                                    Concerts fuel my passion for live music. The thrill of discovering new sounds and sharing those musical experiences
+                                    is an adventure in itself. On quieter days, you'll often find me crocheting (though I'm quite bad at it),
+                                    weaving threads into intricate designs that mirror the beauty of life's tapestry. It's a craft that allows
+                                    me to channel creativity and produce cozy, handmade treasures.
+                                </p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-6 large-6" style="background-color: #F5f5f5;">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell small-12 medium-5 large-5" style="background-color: #F5f5f5;">
+                                <img src="./resized-nature-books-pic.jpg" alt="Image of bookstore with plant decor" style="padding: 1rem 1rem;"></img>
+                            </div>
+                            <div class="cell small-12 medium-7 large-7" style="background-color: #F5f5f5;">
+                                <p class="project-lines fun-paragraphs">
+                                    I'm also an avid reader (and nature lover considering I enjoy reading in nature), constantly drowning in the pages of 
+                                    talented women like <span class="italic">Taylor Jenkins Reid</span>, <span class="italic">Jasmine Guillory</span>, 
+                                    <span class="italic">Bianca Sparacino</span>, and <span class="italic">Colleen Hoover</span>.
+                                    Lastly, my love for thrifting is a treasure hunt like no other. Scouring secondhand stores and markets for unique
+                                    finds is not only environmentally conscious but also a journey of nostalgia, where each discovery has a story
+                                    to tell. Together, these hobbies paint the canvas of my life, adding vibrancy, creativity, and a sense of exploration.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
